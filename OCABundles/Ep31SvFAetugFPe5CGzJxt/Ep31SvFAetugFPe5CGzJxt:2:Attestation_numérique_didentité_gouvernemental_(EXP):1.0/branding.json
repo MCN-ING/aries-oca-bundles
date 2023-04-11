@@ -1,0 +1,14 @@
+[
+    {
+        "type": "aries/overlays/branding/1.0",
+        "capture_base": "",
+        "digest": "",
+        "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/feat/qc-anig-test-oca/OCABundles/Ep31SvFAetugFPe5CGzJxt/Ep31SvFAetugFPe5CGzJxt%3A2%3AAttestation%20num%C3%A9rique%20d'identit%C3%A9%20gouvernemental%20(EXP)%3A1.0/logo-quebec.png",
+        "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/feat/qc-anig-test-oca/OCABundles/Ep31SvFAetugFPe5CGzJxt/Ep31SvFAetugFPe5CGzJxt%3A2%3AAttestation%20num%C3%A9rique%20d'identit%C3%A9%20gouvernemental%20(EXP)%3A1.0/carte-anig-demo.png",
+        "primary_background_color": "#F9F9F9",
+        "secondary_background_color": "#095797",
+        "expiry_date_attribute": "Date d'expiration",
+        "primary_attribute": "Nom",
+        "secondary_attribute": "Prénom"
+    }
+]

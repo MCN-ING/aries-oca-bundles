@@ -1,0 +1,14 @@
+# OSX
+#
+*/.DS_Store
+
+# Secrets
+.env
+.idea/
+
+# Other
+node_modules
+lib
+yarn.lock
+local.properties
+
