@@ -103,12 +103,12 @@
             {
                 "type": "spec/overlays/meta/1.0",
                 "capture_base": "",
-                "name": "Demo ANIG",
+                "name": "ANIG",
                 "credential_help_text": "This is an example of a simple ANIG card.",
                 "credential_support_url": "",
                 "description": "An example ANIG Card for demonstration purposes",
                 "digest": "",
-                "issuer": "MCN",
+                "issuer": "Ministry of Cybersecurity and Digital",
                 "issuer_description": "Demo MCN",
                 "issuer_url": "",
                 "language": "en-CA"
@@ -116,13 +116,13 @@
             {
                 "type": "spec/overlays/meta/1.0",
                 "capture_base": "",
-                "name": "Démo ANIG",
+                "name": "ANIG",
                 "credential_help_text": "Il s'agit d'un exemple d'une simple carte ANIG.",
                 "credential_support_url": "",
                 "description": "Un exemple de carte ANIG à des fins de démonstration",
                 "digest": "",
-                "issuer": "MCN",
-                "issuer_description": "démo MCN",
+                "issuer": "Ministère de la cybersécurité et du numérique",
+                "issuer_description": "Démo MCN",
                 "issuer_url": "",
                 "language": "fr-CA"
             },
@@ -130,14 +130,10 @@
                 "type": "aries/overlays/branding/1.0",
                 "capture_base": "",
                 "digest": "",
-                "logo": "",
-                "background_image_slice": "",
-                "background_image": "",
+                "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/feat/qc-anig-test-oca/OCABundles/Ep31SvFAetugFPe5CGzJxt/Ep31SvFAetugFPe5CGzJxt%3A2%3AAttestation_num%C3%A9rique_didentit%C3%A9_gouvernemental_(EXP)%3A1.0/logo-quebec.png",
+                "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/feat/qc-anig-test-oca/OCABundles/Ep31SvFAetugFPe5CGzJxt/Ep31SvFAetugFPe5CGzJxt%3A2%3AAttestation_num%C3%A9rique_didentit%C3%A9_gouvernemental_(EXP)%3A1.0/carte-anig-demo.png",
                 "primary_background_color": "#F9F9F9",
-                "secondary_background_color": "#095797",
-                "expiry_date_attribute": "Date d'expiration",
-                "primary_attribute": "Nom",
-                "secondary_attribute": "Prénom"
+                "secondary_background_color": "#095797"
             }
         ]
     }
