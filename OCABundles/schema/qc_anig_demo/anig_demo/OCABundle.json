@@ -53,7 +53,7 @@
         },
         {
           "type": "spec/overlays/label/1.0",
-          "language": "fr-CA",
+          "language": "fr",
           "digest": "",
           "capture_base": "Ep31SvFAetugFPe5CGzJxt",
           "category_labels": {},
@@ -70,7 +70,7 @@
           "type": "spec/overlays/information/1.0",
           "capture_base": "Ep31SvFAetugFPe5CGzJxt",
           "digest": "",
-          "language": "fr-CA",
+          "language": "fr",
           "attribute_information": {
             "citizen_id": "Identifiant unique gouvernemental",
             "insurance_level": "Niveau d'assurance"
