@@ -4,7 +4,7 @@
         "type": "spec/capture_base/1.0",
         "classification": "",
         "attributes": {
-          "birthdate_dateint": "DateTime",
+          "birthdate_dateint": "DateInt",
           "insurance_level": "Numeric",
           "family_name": "Text",
           "given_names": "Text",
