@@ -22,5 +22,5 @@
 "Ep31SvFAetugFPe5CGzJxt:2:Attestation numérique d'identité gouvernemental (EXP):1.0": { "path": "OCABundles/schema/qc_anig_demo/Attestation_numérique_didentité_gouvernemental/OCABundle.json" },
 "Ep31SvFAetugFPe5CGzJxt:2:demo_anig:1.1": { "path": "OCABundles/schema/qc_anig_demo/anig_demo/OCABundle.json" },
 "Ep31SvFAetugFPe5CGzJxt:2:demo_address:1.1": { "path": "OCABundles/schema/qc_anig_demo/address_demo/OCABundle.json" },
-"Ep31SvFAetugFPe5CGzJxt:2:demo_anig:1.2": { "path": "OCABundles/schema/qc_anig_demo/address_demo_v2/OCABundle.json" }
+"Ep31SvFAetugFPe5CGzJxt:2:demo_anig:1.2": { "path": "OCABundles/schema/qc_anig_demo/anig_demo_v2/OCABundle.json" }
 }
