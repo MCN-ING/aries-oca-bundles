@@ -129,7 +129,7 @@
         {
           "type": "spec/overlays/meta/1.0",
           "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-          "name": "ANIG",
+          "name": "Attestation numérique d'identité gouvernemental",
           "credential_help_text": "Il s'agit d'un exemple d'une carte ANIG à des fins de démonstration.",
           "credential_support_url": "",
           "description": "Un exemple de carte ANIG à des fins de démonstration",
