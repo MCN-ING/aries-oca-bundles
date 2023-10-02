@@ -9,7 +9,7 @@ A verifiable credential schema used for demonstration and internal use purposes 
 
 | Identifier                                                                         | Location  | URL                                                   |
 | ---------------------------------------------------------------------------------- | --------- | ----------------------------------------------------- |
-| Ep31SvFAetugFPe5CGzJxt:2:demo_anig:1.2 | candy:dev | https://candyscan.idlab.org/tx/CANDY_DEV/domain/32137 |
+| Ep31SvFAetugFPe5CGzJxt:2:demo_anig:1.2 Ep31SvFAetugFPe5CGzJxt:2:demo_anig:1.3 | candy:dev | https://candyscan.idlab.org/tx/CANDY_DEV/domain/32137 https://candyscan.idlab.org/tx/CANDY_DEV/domain/32174 |
 
 ## Authorization
 
