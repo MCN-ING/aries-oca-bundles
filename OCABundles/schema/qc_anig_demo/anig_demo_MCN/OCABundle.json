@@ -135,7 +135,7 @@
           "description": "Un exemple de carte ANIG à des fins de démonstration",
           "digest": "",
           "issuer": "Ministère de la Cybersécurité et du Numérique",
-          "issuer_description": "Ministère de la cybersécurité et du numérique",
+          "issuer_description": "Ministère de la Cybersécurité et du Numérique",
           "watermark": "NON-PRODUCTION",
           "issuer_url": "",
           "language": "fr"
@@ -145,8 +145,11 @@
           "capture_base": "",
           "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/Attestation_num%C3%A9rique_didentit%C3%A9_gouvernemental/logo-quebec.png",
           "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/Attestation_num%C3%A9rique_didentit%C3%A9_gouvernemental/carte-anig-demo.png",
-          "primary_background_color": "#095797",
-          "secondary_background_color": "#095797"
+          "primary_background_color": "#F9F9F9",
+          "secondary_background_color": "#095797",
+          "background_image_slice": "",
+          "primary_attribute": "",
+          "secondary_attribute": ""
         }
       ]
     }
