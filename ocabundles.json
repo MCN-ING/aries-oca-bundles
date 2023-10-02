@@ -24,5 +24,6 @@
 "Ep31SvFAetugFPe5CGzJxt:2:demo_address:1.1": { "path": "OCABundles/schema/qc_anig_demo/address_demo/OCABundle.json" },
 "Ep31SvFAetugFPe5CGzJxt:2:demo_anig:1.2": { "path": "OCABundles/schema/qc_anig_demo/anig_demo_v2/OCABundle.json" },
 "Ep31SvFAetugFPe5CGzJxt:2:demo_anig:1.3": { "path": "OCABundles/schema/qc_anig_demo/anig_demo_v2/OCABundle.json" },
-"2PAdJEFvzqjMyiDbAaGz84:2:demo_anig:1.3": { "path": "OCABundles/schema/qc_anig_demo/anig_demo_v3/OCABundle.json" }
+"U3eMJXwfAAhP6NGSMDiV7c:2:demo_anig:1.2": { "path": "OCABundles/schema/qc_anig_demo/anig_demo_MCN/OCABundle.json" },
+"U3eMJXwfAAhP6NGSMDiV7c:2:demo_anig:1.3": { "path": "OCABundles/schema/qc_anig_demo/anig_demo_MCN/OCABundle.json" }
 }
