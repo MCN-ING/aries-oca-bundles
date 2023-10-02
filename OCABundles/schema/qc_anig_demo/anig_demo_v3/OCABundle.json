@@ -16,11 +16,11 @@
           "country": "Text"
         },
         "flagged_attributes": [],
-        "digest": "Ep31SvFAetugFPe5CGzJxt"
+        "digest": ""
       },
       "overlays": [
         {
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+          "capture_base": "",
           "type": "spec/overlays/character_encoding/1.0",
           "default_character_encoding": "utf-8",
           "attribute_character_encoding": {
@@ -40,7 +40,7 @@
           "type": "spec/overlays/label/1.0",
           "language": "en",
           "digest": "",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+          "capture_base": "",
           "category_labels": {},
           "attribute_categories": [],
           "attribute_labels": {
@@ -50,15 +50,15 @@
             "given_names": "Given Names",
             "citizen_id": "Unique Government Identifier",
             "street_address": "Address",
-            "locality": "Locality",
-            "region": "Region",
+            "locality": "City",
+            "region": "Province",
             "postal_code": "Postal Code",
             "country": "Country"
           }
         },
         {
           "type": "spec/overlays/information/1.0",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+          "capture_base": "",
           "digest": "",
           "language": "en",
           "attribute_information": {
@@ -70,7 +70,7 @@
           "type": "spec/overlays/label/1.0",
           "language": "fr",
           "digest": "",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+          "capture_base": "",
           "category_labels": {},
           "attribute_categories": [],
           "attribute_labels": {
@@ -88,7 +88,7 @@
         },
         {
           "type": "spec/overlays/information/1.0",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+          "capture_base": "",
           "digest": "",
           "language": "fr",
           "attribute_information": {
@@ -98,7 +98,7 @@
         },
         {
           "type": "spec/overlays/format/1.0",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+          "capture_base": "",
           "digest": "",
           "attribute_formats": {
             "birthdate_dateint": "YYYYMMDD"
@@ -106,7 +106,7 @@
         },
         {
           "type": "spec/overlays/standard/1.0",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+          "capture_base": "",
           "digest": "",
           "attribute_standards": {
             "birthdate_dateint": "urn:iso:std:iso:1989"
@@ -114,7 +114,7 @@
         },
         {
           "type": "spec/overlays/meta/1.0",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+          "capture_base": "",
           "name": "ANIG",
           "credential_help_text": "This is an example of the ANIG Card for demonstration purposes",
           "credential_support_url": "",
@@ -128,13 +128,13 @@
         },
         {
           "type": "spec/overlays/meta/1.0",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+          "capture_base": "",
           "name": "Attestation numérique d'identité gouvernemental",
           "credential_help_text": "Il s'agit d'un exemple d'une carte ANIG à des fins de démonstration.",
           "credential_support_url": "",
           "description": "Un exemple de carte ANIG à des fins de démonstration",
           "digest": "",
-          "issuer": "Ministère de la cybersécurité et du numérique",
+          "issuer": "Ministère de la Cybersécurité et du Numérique",
           "issuer_description": "Ministère de la cybersécurité et du numérique",
           "watermark": "NON-PRODUCTION",
           "issuer_url": "",
@@ -142,7 +142,7 @@
         },
         {
           "type": "aries/overlays/branding/1.0",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+          "capture_base": "",
           "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/Attestation_num%C3%A9rique_didentit%C3%A9_gouvernemental/logo-quebec.png",
           "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/Attestation_num%C3%A9rique_didentit%C3%A9_gouvernemental/carte-anig-demo.png",
           "primary_background_color": "#095797",
