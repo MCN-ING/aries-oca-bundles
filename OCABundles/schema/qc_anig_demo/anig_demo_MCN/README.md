@@ -9,7 +9,7 @@ A verifiable credential schema used for demonstration and internal use purposes 
 
 | Identifier                                                                         | Location  | URL                                                   |
 | ---------------------------------------------------------------------------------- | --------- | ----------------------------------------------------- |
-| 2PAdJEFvzqjMyiDbAaGz84:2:demo_anig:1.3 | candy:dev | # |
+| U3eMJXwfAAhP6NGSMDiV7c:2:demo_anig:1.2 U3eMJXwfAAhP6NGSMDiV7c:2:demo_anig:1.3 | candy:dev | # |
 
 ## Authorization
 
