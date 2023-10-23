@@ -1,1 +1,85 @@
-[]
+[
+    {
+      "capture_base": {
+        "type": "spec/capture_base/1.0",
+        "classification": "",
+        "attributes": {
+          "email": "Email",
+          "time": "Issuance timestamp"
+        },
+        "flagged_attributes": [],
+        "digest": "FUKLxsjrYSHgScLbHuPTo4"
+      },
+      "overlays": [
+        {
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "type": "spec/overlays/character_encoding/1.0",
+          "default_character_encoding": "utf-8",
+          "attribute_character_encoding": {
+            "email": "utf-8",
+            "time": "utf-8"
+          }
+        },
+        {
+          "type": "spec/overlays/label/1.0",
+          "language": "en",
+          "digest": "",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "category_labels": {},
+          "attribute_categories": [],
+          "attribute_labels": {
+            "email": "Email",
+            "time": "Issued date"
+          }
+        },
+        {
+          "type": "spec/overlays/label/1.0",
+          "language": "fr",
+          "digest": "",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "category_labels": {},
+          "attribute_categories": [],
+          "attribute_labels": {
+            "email": "Courriel",
+            "time": "Date d'émission"
+          }
+        },
+        {
+          "type": "spec/overlays/meta/1.0",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "name": "Port-E",
+          "credential_help_text": "Example of virtual access rights for an employee.",
+          "credential_support_url": "",
+          "description": "Example of virtual access rights for an employee.",
+          "digest": "",
+          "issuer": "Quebec's Digital Center of Excellence",
+          "issuer_description": "Quebec's Digital Center of Excellence",
+          "watermark": "NON-PRODUCTION",
+          "issuer_url": "",
+          "language": "en"
+        },
+        {
+          "type": "spec/overlays/meta/1.0",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "name": "Port-E",
+          "credential_help_text": "Exemple de droit d'accès virtuel pour un employé.",
+          "credential_support_url": "",
+          "description": "Exemple de droit d'accès virtuel pour un employé.",
+          "digest": "",
+          "issuer": "Centre Québécois d'Excellence Numérique",
+          "issuer_description": "Centre Québécois d'Excellence Numérique",
+          "watermark": "NON-PRODUCTION",
+          "issuer_url": "",
+          "language": "fr"
+        },
+        {
+          "type": "aries/overlays/branding/1.0",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/Attestation_num%C3%A9rique_didentit%C3%A9_gouvernemental/logo-quebec.png",
+          "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/Attestation_num%C3%A9rique_didentit%C3%A9_gouvernemental/carte-anig-demo.png",
+          "primary_background_color": "#F9F9F9",
+          "secondary_background_color": "#095797"
+        }
+      ]
+    }
+  ]
