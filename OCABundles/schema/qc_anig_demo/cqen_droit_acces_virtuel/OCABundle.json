@@ -74,7 +74,8 @@
         },
         {
           "type": "aries/overlays/branding/1.0",
-          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "capture_base": "",
+          "digest": "",
           "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/cqen_droit_acces_virtuel/logo-quebec.png",
           "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/cqen_droit_acces_virtuel/CQEN-background.png",
           "primary_background_color": "#F9F9F9",
