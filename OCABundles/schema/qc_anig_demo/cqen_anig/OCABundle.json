@@ -4,8 +4,8 @@
         "type": "spec/capture_base/1.0",
         "classification": "",
         "attributes": {
-          "email": "Email",
-          "time": "Issuance timestamp"
+          "credentialSubject.firstNames": "Firstname",
+          "credentialSubject.lastName": "Lastname"
         },
         "flagged_attributes": [],
         "digest": "FUKLxsjrYSHgScLbHuPTo4"
@@ -28,8 +28,8 @@
           "category_labels": {},
           "attribute_categories": [],
           "attribute_labels": {
-            "email": "Email",
-            "time": "Issued date"
+            "credentialSubject.firstNames": "Firstname",
+            "credentialSubject.lastName": "Lastname"
           }
         },
         {
@@ -40,17 +40,17 @@
           "category_labels": {},
           "attribute_categories": [],
           "attribute_labels": {
-            "email": "Courriel",
-            "time": "Date d'émission"
+            "credentialSubject.firstNames": "Prénom",
+            "credentialSubject.lastName": "Nom"
           }
         },
         {
           "type": "spec/overlays/meta/1.0",
           "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
           "name": "Port-E",
-          "credential_help_text": "Example of virtual access rights for an employee.",
+          "credential_help_text": "Example of a government digital identity credential.",
           "credential_support_url": "",
-          "description": "Example of virtual access rights for an employee.",
+          "description": "Example of a government digital identity credential.",
           "digest": "",
           "issuer": "Quebec's Digital Center of Excellence",
           "issuer_description": "Quebec's Digital Center of Excellence",
@@ -62,9 +62,9 @@
           "type": "spec/overlays/meta/1.0",
           "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
           "name": "Port-E",
-          "credential_help_text": "Exemple de droit d'accès virtuel pour un employé.",
+          "credential_help_text": "Exemple d'attestation d'identité numérique Gouvernemental.",
           "credential_support_url": "",
-          "description": "Exemple de droit d'accès virtuel pour un employé.",
+          "description": "Exemple d'attestation d'identité numérique Gouvernemental.",
           "digest": "",
           "issuer": "Centre Québécois d'Excellence Numérique",
           "issuer_description": "Centre Québécois d'Excellence Numérique",
@@ -76,8 +76,8 @@
           "type": "aries/overlays/branding/1.0",
           "capture_base": "",
           "digest": "",
-          "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/cqen_droit_acces_virtuel/logo-quebec.png",
-          "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/cqen_droit_acces_virtuel/CQEN-background.png",
+          "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/cqen_anig/logo-quebec.png",
+          "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/cqen_anig/CQEN-background.png",
           "primary_background_color": "#F9F9F9",
           "secondary_background_color": ""
         }
