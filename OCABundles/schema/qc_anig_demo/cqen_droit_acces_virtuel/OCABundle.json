@@ -54,7 +54,7 @@
           "digest": "",
           "issuer": "Quebec's Digital Center of Excellence",
           "issuer_description": "Quebec's Digital Center of Excellence",
-          "watermark": "NON-PRODUCTION",
+          "watermark": "",
           "issuer_url": "",
           "language": "en"
         },
@@ -68,7 +68,7 @@
           "digest": "",
           "issuer": "Centre Québécois d'Excellence Numérique",
           "issuer_description": "Centre Québécois d'Excellence Numérique",
-          "watermark": "NON-PRODUCTION",
+          "watermark": "",
           "issuer_url": "",
           "language": "fr"
         },
