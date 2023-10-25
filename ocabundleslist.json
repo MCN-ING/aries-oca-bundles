@@ -9,5 +9,6 @@
 { "org": "Digital Trust, Government of British Columbia", "name": "Unverified Person Credential", "desc": "A verifiable credential schema for an \"unverified\" person, used in various BC Wallet demos where an unofficial Person credential is useful.", "type": "schema", "ocabundle": "OCABundles/schema/bcgov-digital-trust/unverified-person/OCABundle.json" },
 { "org": "MCN, Government of Quebec", "name": "QC ANIG ID", "desc": "A verifiable credential schema used for demonstration and internal use purposes only.", "type": "schema", "ocabundle": "OCABundles/schema/qc_anig_demo/Attestation_numérique_didentité_gouvernemental/OCABundle.json" },
 { "org": "MCN, Government of Quebec", "name": "QC ANIG DEMO", "desc": "A verifiable credential schema used for demonstration and internal use purposes only.", "type": "schema", "ocabundle": "OCABundles/schema/qc_anig_demo/anig_demo/OCABundle.json" },
-{ "org": "CQEN, Quebec's Digital Center of Excellence", "name": "Port-e virtual access rights", "desc": "", "type": "schema", "ocabundle": "OCABundles/schema/qc_anig_demo/cqen_droit_acces_virtuel/OCABundle.json" }
+{ "org": "CQEN, Quebec's Digital Center of Excellence", "name": "Port-e virtual access rights", "desc": "", "type": "schema", "ocabundle": "OCABundles/schema/qc_anig_demo/cqen_droit_acces_virtuel/OCABundle.json" },
+{ "org": "CQEN, Quebec's Digital Center of Excellence", "name": "Port-e government digital identity credential", "desc": "", "type": "schema", "ocabundle": "OCABundles/schema/qc_anig_demo/cqen_anig/OCABundle.json" }
 ]
