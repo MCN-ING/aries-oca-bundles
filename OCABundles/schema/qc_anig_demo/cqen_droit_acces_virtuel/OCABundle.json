@@ -47,7 +47,7 @@
         {
           "type": "spec/overlays/meta/1.0",
           "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
-          "name": "Port-E",
+          "name": "Verified email (Port-E)",
           "credential_help_text": "Example of virtual access rights for an employee.",
           "credential_support_url": "",
           "description": "Example of virtual access rights for an employee.",
@@ -61,7 +61,7 @@
         {
           "type": "spec/overlays/meta/1.0",
           "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
-          "name": "Port-E",
+          "name": "Courriel vérifié (Port-E)",
           "credential_help_text": "Exemple de droit d'accès virtuel pour un employé.",
           "credential_support_url": "",
           "description": "Exemple de droit d'accès virtuel pour un employé.",
