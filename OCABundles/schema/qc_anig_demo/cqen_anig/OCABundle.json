@@ -47,7 +47,7 @@
         {
           "type": "spec/overlays/meta/1.0",
           "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
-          "name": "Port-E",
+          "name": "Government digital identity credential (Port-E)",
           "credential_help_text": "Example of a government digital identity credential.",
           "credential_support_url": "",
           "description": "Example of a government digital identity credential.",
@@ -61,7 +61,7 @@
         {
           "type": "spec/overlays/meta/1.0",
           "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
-          "name": "Port-E",
+          "name": "Attestation numérique d'identité gouvernementale (Port-E)",
           "credential_help_text": "Exemple d'attestation d'identité numérique Gouvernemental.",
           "credential_support_url": "",
           "description": "Exemple d'attestation d'identité numérique Gouvernemental.",
