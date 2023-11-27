@@ -1,156 +1,156 @@
 [
-    {
-      "capture_base": {
-        "type": "spec/capture_base/1.0",
-        "classification": "",
-        "attributes": {
-          "birthdate_dateint": "DateInt",
-          "insurance_level": "Numeric",
-          "family_name": "Text",
-          "given_names": "Text",
-          "citizen_id": "Text",
-          "street_address": "Text",
-          "locality": "Text",
-          "region": "Text",
-          "postal_code": "Text",
-          "country": "Text"
-        },
-        "flagged_attributes": [],
-        "digest": "Ep31SvFAetugFPe5CGzJxt"
+  {
+    "capture_base": {
+      "type": "spec/capture_base/1.0",
+      "classification": "",
+      "attributes": {
+        "birthdate_dateint": "DateTime",
+        "insurance_level": "Numeric",
+        "family_name": "Text",
+        "given_names": "Text",
+        "citizen_id": "Text",
+        "street_address": "Text",
+        "locality": "Text",
+        "region": "Text",
+        "postal_code": "Text",
+        "country": "Text"
       },
-      "overlays": [
-        {
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-          "type": "spec/overlays/character_encoding/1.0",
-          "default_character_encoding": "utf-8",
-          "attribute_character_encoding": {
-            "birthdate_dateint": "utf-8",
-            "insurance_level": "utf-8",
-            "family_name": "utf-8",
-            "given_names": "utf-8",
-            "citizen_id": "utf-8",
-            "street_address": "utf-8",
-            "locality": "utf-8",
-            "region": "utf-8",
-            "postal_code": "utf-8",
-            "country": "utf-8"
-          }
-        },
-        {
-          "type": "spec/overlays/label/1.0",
-          "language": "en",
-          "digest": "",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-          "category_labels": {},
-          "attribute_categories": [],
-          "attribute_labels": {
-            "birthdate_dateint": "Date of Birth",
-            "insurance_level": "Insurance Level",
-            "family_name": "Family Name",
-            "given_names": "Given Names",
-            "citizen_id": "Unique Government Identifier",
-            "street_address": "Address",
-            "locality": "Locality",
-            "region": "Region",
-            "postal_code": "Postal Code",
-            "country": "Country"
-          }
-        },
-        {
-          "type": "spec/overlays/information/1.0",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-          "digest": "",
-          "language": "en",
-          "attribute_information": {
-            "citizen_id": "Unique Government Identifier",
-            "insurance_level": "Insurance Level"
-          }
-        },
-        {
-          "type": "spec/overlays/label/1.0",
-          "language": "fr",
-          "digest": "",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-          "category_labels": {},
-          "attribute_categories": [],
-          "attribute_labels": {
-            "birthdate_dateint": "Date de naissance",
-            "insurance_level": "Niveau d'assurance",
-            "family_name": "Nom",
-            "given_names": "Prénom",
-            "citizen_id": "Identifiant unique gouvernemental",
-            "street_address": "Adresse",
-            "locality": "Ville",
-            "region": "Province",
-            "postal_code": "Code postal",
-            "country": "Pays"
-          }
-        },
-        {
-          "type": "spec/overlays/information/1.0",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-          "digest": "",
-          "language": "fr",
-          "attribute_information": {
-            "citizen_id": "Identifiant unique gouvernemental",
-            "insurance_level": "Niveau d'assurance"
-          }
-        },
-        {
-          "type": "spec/overlays/format/1.0",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-          "digest": "",
-          "attribute_formats": {
-            "birthdate_dateint": "YYYYMMDD"
-          }
-        },
-        {
-          "type": "spec/overlays/standard/1.0",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-          "digest": "",
-          "attribute_standards": {
-            "birthdate_dateint": "urn:iso:std:iso:1989"
-          }
-        },
-        {
-          "type": "spec/overlays/meta/1.0",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-          "name": "ANIG",
-          "credential_help_text": "This is an example of the ANIG Card for demonstration purposes",
-          "credential_support_url": "",
-          "description": "An example ANIG Card for demonstration purposes",
-          "digest": "",
-          "issuer": "Ministry of Cybersecurity and Digital",
-          "issuer_description": "Ministry of Cybersecurity and Digital",
-          "watermark": "NON-PRODUCTION",
-          "issuer_url": "",
-          "language": "en"
-        },
-        {
-          "type": "spec/overlays/meta/1.0",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-          "name": "Attestation numérique d'identité gouvernemental",
-          "credential_help_text": "Il s'agit d'un exemple d'une carte ANIG à des fins de démonstration.",
-          "credential_support_url": "",
-          "description": "Un exemple de carte ANIG à des fins de démonstration",
-          "digest": "",
-          "issuer": "Ministère de la Cybersécurité et du Numérique",
-          "issuer_description": "Ministère de la Cybersécurité et du Numérique",
-          "watermark": "NON-PRODUCTION",
-          "issuer_url": "",
-          "language": "fr"
-        },
-        {
-          "type": "aries/overlays/branding/1.0",
-          "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-          "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/Attestation_num%C3%A9rique_didentit%C3%A9_gouvernemental/logo-quebec.png",
-          "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/Attestation_num%C3%A9rique_didentit%C3%A9_gouvernemental/carte-anig-demo.png",
-          "primary_background_color": "#F9F9F9",
-          "secondary_background_color": "#095797",
-          "background_image_slice": "",
-          "primary_attribute": "",
-          "secondary_attribute": ""
+      "flagged_attributes": [],
+      "digest": "Ep31SvFAetugFPe5CGzJxt"
+    },
+    "overlays": [
+      {
+        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+        "type": "spec/overlays/character_encoding/1.0",
+        "default_character_encoding": "utf-8",
+        "attribute_character_encoding": {
+          "birthdate_dateint": "utf-8",
+          "insurance_level": "utf-8",
+          "family_name": "utf-8",
+          "given_names": "utf-8",
+          "citizen_id": "utf-8",
+          "street_address": "utf-8",
+          "locality": "utf-8",
+          "region": "utf-8",
+          "postal_code": "utf-8",
+          "country": "utf-8"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "type": "spec/overlays/label/1.0",
+        "language": "en",
+        "digest": "",
+        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+        "category_labels": {},
+        "attribute_categories": [],
+        "attribute_labels": {
+          "birthdate_dateint": "Date of Birth",
+          "insurance_level": "Insurance Level",
+          "family_name": "Family Name",
+          "given_names": "Given Names",
+          "citizen_id": "Unique Government Identifier",
+          "street_address": "Address",
+          "locality": "Locality",
+          "region": "Region",
+          "postal_code": "Postal Code",
+          "country": "Country"
+        }
+      },
+      {
+        "type": "spec/overlays/information/1.0",
+        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+        "digest": "",
+        "language": "en",
+        "attribute_information": {
+          "citizen_id": "Unique Government Identifier",
+          "insurance_level": "Insurance Level"
+        }
+      },
+      {
+        "type": "spec/overlays/label/1.0",
+        "language": "fr",
+        "digest": "",
+        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+        "category_labels": {},
+        "attribute_categories": [],
+        "attribute_labels": {
+          "birthdate_dateint": "Date de naissance",
+          "insurance_level": "Niveau d'assurance",
+          "family_name": "Nom",
+          "given_names": "Prénom",
+          "citizen_id": "Identifiant unique gouvernemental",
+          "street_address": "Adresse",
+          "locality": "Ville",
+          "region": "Province",
+          "postal_code": "Code postal",
+          "country": "Pays"
+        }
+      },
+      {
+        "type": "spec/overlays/information/1.0",
+        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+        "digest": "",
+        "language": "fr",
+        "attribute_information": {
+          "citizen_id": "Identifiant unique gouvernemental",
+          "insurance_level": "Niveau d'assurance"
+        }
+      },
+      {
+        "type": "spec/overlays/format/1.0",
+        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+        "digest": "",
+        "attribute_formats": {
+          "birthdate_dateint": "YYYYMMDD"
+        }
+      },
+      {
+        "type": "spec/overlays/standard/1.0",
+        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+        "digest": "",
+        "attribute_standards": {
+          "birthdate_dateint": "urn:iso:std:iso:1989"
+        }
+      },
+      {
+        "type": "spec/overlays/meta/1.0",
+        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+        "name": "ANIG",
+        "credential_help_text": "This is an example of the ANIG Card for demonstration purposes",
+        "credential_support_url": "",
+        "description": "An example ANIG Card for demonstration purposes",
+        "digest": "",
+        "issuer": "Ministry of Cybersecurity and Digital",
+        "issuer_description": "Ministry of Cybersecurity and Digital",
+        "watermark": "NON-PRODUCTION",
+        "issuer_url": "",
+        "language": "en"
+      },
+      {
+        "type": "spec/overlays/meta/1.0",
+        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+        "name": "Attestation numérique d'identité gouvernemental",
+        "credential_help_text": "Il s'agit d'un exemple d'une carte ANIG à des fins de démonstration.",
+        "credential_support_url": "",
+        "description": "Un exemple de carte ANIG à des fins de démonstration",
+        "digest": "",
+        "issuer": "Ministère de la Cybersécurité et du Numérique",
+        "issuer_description": "Ministère de la Cybersécurité et du Numérique",
+        "watermark": "NON-PRODUCTION",
+        "issuer_url": "",
+        "language": "fr"
+      },
+      {
+        "type": "aries/overlays/branding/1.0",
+        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+        "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/Attestation_num%C3%A9rique_didentit%C3%A9_gouvernemental/logo-quebec.png",
+        "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/Attestation_num%C3%A9rique_didentit%C3%A9_gouvernemental/carte-anig-demo.png",
+        "primary_background_color": "#F9F9F9",
+        "secondary_background_color": "#095797",
+        "background_image_slice": "",
+        "primary_attribute": "",
+        "secondary_attribute": ""
+      }
+    ]
+  }
+]
