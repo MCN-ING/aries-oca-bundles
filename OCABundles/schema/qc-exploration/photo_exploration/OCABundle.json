@@ -1,0 +1,105 @@
+[
+    {
+        "capture_base": {
+            "type": "spec/capture_base/1.0",
+            "classification": "",
+            "attributes": {
+                "Photo": "Binary"
+            },
+            "flagged_attributes": []
+        },
+        "overlays": [
+            {
+                "capture_base": "",
+                "type": "spec/overlays/character_encoding/1.0",
+                "default_character_encoding": "utf-8",
+                "digest": "",
+                "attribute_character_encoding": {
+                    "Photo": "base64"
+                }
+            },
+            {
+                "type": "spec/overlays/label/1.0",
+                "language": "en",
+                "digest": "",
+                "capture_base": "",
+                "category_labels": {},
+                "attribute_categories": [],
+                "attribute_labels": {
+                    "Photo": "Picture"
+                }
+            },
+            {
+                "type": "spec/overlays/information/1.0",
+                "capture_base": "",
+                "digest": "",
+                "language": "en",
+                "attribute_information": {}
+            },
+            {
+                "type": "spec/overlays/label/1.0",
+                "language": "fr",
+                "digest": "",
+                "capture_base": "",
+                "category_labels": {},
+                "attribute_categories": [],
+                "attribute_labels": {
+                    "Photo": "Photo"
+                }
+            },
+            {
+                "type": "spec/overlays/information/1.0",
+                "capture_base": "",
+                "digest": "",
+                "language": "fr",
+                "attribute_information": {}
+            },
+            {
+                "type": "spec/overlays/format/1.0",
+                "capture_base": "",
+                "digest": "",
+                "attribute_formats": {}
+            },
+            {
+                "type": "spec/overlays/standard/1.0",
+                "capture_base": "",
+                "digest": "",
+                "attribute_standards": {}
+            },
+            {
+                "type": "spec/overlays/meta/1.0",
+                "capture_base": "",
+                "name": "Picture",
+                "credential_help_text": "This is an example of a simple ANIG card.",
+                "credential_support_url": "",
+                "description": "An example ANIG Card for demonstration purposes",
+                "digest": "",
+                "issuer": "Ministry of Cybersecurity and Digital",
+                "issuer_description": "MCN",
+                "issuer_url": "",
+                "language": "en"
+            },
+            {
+                "type": "spec/overlays/meta/1.0",
+                "capture_base": "",
+                "name": "Photo",
+                "credential_help_text": "Il s'agit d'un exemple d'une simple carte ANIG.",
+                "credential_support_url": "",
+                "description": "Un exemple de carte ANIG à des fins de démonstration",
+                "digest": "",
+                "issuer": "Ministère de la cybersécurité et du numérique",
+                "issuer_description": "MCN",
+                "issuer_url": "",
+                "language": "fr"
+            },
+            {
+                "type": "aries/overlays/branding/1.0",
+                "capture_base": "Ep31SvFAetugFPe5CGzJxt",
+                "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/Attestation_num%C3%A9rique_didentit%C3%A9_gouvernemental/logo-quebec.png",
+                "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/Attestation_num%C3%A9rique_didentit%C3%A9_gouvernemental/carte-anig-demo.png",
+                "primary_background_color": "#F9F9F9",
+                "secondary_background_color": "#095797"
+            }
+        ]
+    }
+]
