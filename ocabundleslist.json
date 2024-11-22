@@ -89,5 +89,12 @@
     "desc": "",
     "type": "schema",
     "ocabundle": "OCABundles/schema/qc_anig_demo/cqen_anig/OCABundle.json"
+  },
+  {
+    "org": "CQEN, Quebec's Digital Center of Excellence",
+    "name": "Quebec Driver License",
+    "desc": "A verifiable credential representing a Quebec driver license used for demonstration and internal use purposes only.",
+    "type": "schema",
+    "ocabundle": "OCABundles/schema/qc_permis_conduire/OCABundle.json"
   }
 ]
