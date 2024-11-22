@@ -1,102 +1,86 @@
 [
-  {
-    "capture_base": {
-      "type": "spec/capture_base/1.0",
-      "classification": "",
-      "attributes": {
-        "citizen_id": "Text"
+    {
+      "capture_base": {
+        "type": "spec/capture_base/1.0",
+        "classification": "",
+        "attributes": {
+          "given_name": "Given name",
+          "family_name": "Family name"
+        },
+        "flagged_attributes": [],
+        "digest": "FUKLxsjrYSHgScLbHuPTo4"
       },
-      "flagged_attributes": [],
-      "digest": "Ep31SvFAetugFPe5CGzJxt"
-    },
-    "overlays": [
-      {
-        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-        "type": "spec/overlays/character_encoding/1.0",
-        "default_character_encoding": "utf-8",
-        "attribute_character_encoding": {
-          "citizen_id": "utf-8"
+      "overlays": [
+        {
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "type": "spec/overlays/character_encoding/1.0",
+          "default_character_encoding": "utf-8",
+          "attribute_character_encoding": {
+            "given_name": "utf-8",
+            "family_name": "utf-8"
+          }
+        },
+        {
+          "type": "spec/overlays/label/1.0",
+          "language": "en",
+          "digest": "",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "category_labels": {},
+          "attribute_categories": [],
+          "attribute_labels": {
+            "given_name": "Given names",
+            "family_name": "Family name"
+          }
+        },
+        {
+          "type": "spec/overlays/label/1.0",
+          "language": "fr",
+          "digest": "",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "category_labels": {},
+          "attribute_categories": [],
+          "attribute_labels": {
+            "given_name": "Prénoms",
+            "family_name": Nom famille"
+          }
+        },
+        {
+          "type": "spec/overlays/meta/1.0",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "name": "Quebec driver license",
+          "credential_help_text": "Example of a driver license for a Quebec citizen.",
+          "credential_support_url": "",
+          "description": "Example of a driver license for a Quebec citizen.",
+          "digest": "",
+          "issuer": "Quebec's Digital Center of Excellence",
+          "issuer_description": "Quebec's Digital Center of Excellence",
+          "watermark": "",
+          "issuer_url": "",
+          "language": "en"
+        },
+        {
+          "type": "spec/overlays/meta/1.0",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "name": "Permis de conduire (Québec)",
+          "credential_help_text": "Exemple de permis de conduire pour un résident du Québec.",
+          "credential_support_url": "",
+          "description": "Exemple de permis de conduire pour un résident du Québec.",
+          "digest": "",
+          "issuer": "Centre Québécois d'Excellence Numérique",
+          "issuer_description": "Centre Québécois d'Excellence Numérique",
+          "watermark": "",
+          "issuer_url": "",
+          "language": "fr"
+        },
+        {
+          "type": "aries/overlays/branding/1.0",
+          "capture_base": "",
+          "digest": "",
+          "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_permis_conduire/logo-quebec.png",
+          "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_permis_conduire/CQEN-background.png",
+          "primary_background_color": "#F9F9F9",
+          "secondary_background_color": ""
         }
-      },
-      {
-        "type": "spec/overlays/label/1.0",
-        "language": "en",
-        "digest": "",
-        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-        "category_labels": {},
-        "attribute_categories": [],
-        "attribute_labels": {
-          "citizen_id": "Unique Government Identifier For Authentication Attestation"
-        }
-      },
-      {
-        "type": "spec/overlays/information/1.0",
-        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-        "digest": "",
-        "language": "en",
-        "attribute_information": {
-          "citizen_id": "Unique Government Identifier For Authentication Attestation"
-        }
-      },
-      {
-        "type": "spec/overlays/label/1.0",
-        "language": "fr",
-        "digest": "",
-        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-        "category_labels": {},
-        "attribute_categories": [],
-        "attribute_labels": {
-          "citizen_id": "Identifiant de l'attestation d'authentification gouvernemental"
-        }
-      },
-      {
-        "type": "spec/overlays/information/1.0",
-        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-        "digest": "",
-        "language": "fr",
-        "attribute_information": {
-          "citizen_id": "Identifiant de l'attestation d'authentification gouvernemental"
-        }
-      },
-      {
-        "type": "spec/overlays/meta/1.0",
-        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-        "name": "Government Digital Attestation of Authentication",
-        "credential_help_text": "This is an example of the GDAA Card for demonstration purposes",
-        "credential_support_url": "",
-        "description": "An example of the Government Digital Attestation of Authentication for demonstration purposes",
-        "digest": "",
-        "issuer": "Ministry of Cybersecurity and Digital",
-        "issuer_description": "Ministry of Cybersecurity and Digital",
-        "watermark": "NON-PRODUCTION",
-        "issuer_url": "",
-        "language": "en"
-      },
-      {
-        "type": "spec/overlays/meta/1.0",
-        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-        "name": "Attestation numérique d'authentification gouvernemental",
-        "credential_help_text": "Il s'agit d'un exemple d'une carte ANAG à des fins de démonstration.",
-        "credential_support_url": "",
-        "description": "Un exemple d'attestation numérique d'authentification gouvernemental à des fins de démonstration",
-        "digest": "",
-        "issuer": "Ministère de la Cybersécurité et du Numérique",
-        "issuer_description": "Ministère de la Cybersécurité et du Numérique",
-        "watermark": "NON-PRODUCTION",
-        "issuer_url": "",
-        "language": "fr"
-      },
-      {
-        "type": "aries/overlays/branding/1.0",
-        "capture_base": "Ep31SvFAetugFPe5CGzJxt",
-        "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/Attestation_num%C3%A9rique_didentit%C3%A9_gouvernemental/logo-quebec.png",
-        "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/Attestation_num%C3%A9rique_didentit%C3%A9_gouvernemental/carte-anig-demo.png",
-        "primary_background_color": "#F9F9F9",
-        "secondary_background_color": "#095797",
-        "background_image_slice": "",
-        "primary_attribute": "",
-        "secondary_attribute": ""
-      }
-    ]
-  }
-]
+      ]
+    }
+  ]
