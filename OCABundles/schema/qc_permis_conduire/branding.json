@@ -5,7 +5,7 @@
         "digest": "",
         "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_permis_conduire/logo-quebec.png",
         "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_permis_conduire/permis-conduire-background.png",
-        "primary_background_color": "#F9F9F9",
-        "secondary_background_color": ""
+        "primary_background_color": "#095797",
+        "secondary_background_color": "#19406C"
     }
 ]
