@@ -7,9 +7,9 @@ A verifiable credential schema used for demonstration and internal use purposes 
 
 ## Identifiers
 
-| Identifier                                                                         | Location  | URL                                                   |
-| ---------------------------------------------------------------------------------- | --------- | ----------------------------------------------------- |
-| Ep31SvFAetugFPe5CGzJxt:2:demo_saaq:1.0                                             | candy:dev | https://candyscan.idlab.org/tx/CANDY_DEV/domain/32137 https://candyscan.idlab.org/tx/CANDY_DEV/domain/32174 |
+| Identifier                             | Location  | URL                                                   |
+| -------------------------------------- | --------- | ----------------------------------------------------- |
+| Ep31SvFAetugFPe5CGzJxt:2:demo_saaq:1.0 | candy:dev | https://candyscan.idlab.org/tx/CANDY_DEV/domain/34426 |
 
 ## Authorization
 
