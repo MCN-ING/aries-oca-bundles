@@ -9,9 +9,7 @@ A schema for a "person" credential used in a demo that is part of the [BC Gov Di
 
 | Identifier                          | Location  | URL                                                   |
 | ----------------------------------- | --------- | ----------------------------------------------------- |
-| 63ZiwyeZeazA6AhYRYm2zD:2:Person:1.0 | candy:dev | https://candyscan.idlab.org/tx/CANDY_DEV/domain/28329 |
-| Trx3R1frdEzbn34Sp1jyX:2:Person:1.0  | candy:dev | https://candyscan.idlab.org/tx/CANDY_DEV/domain/28328 |
-| XUxBrVSALWHLeycAUhrNr9:2:Person:1.0 | candy:dev | https://candyscan.idlab.org/tx/CANDY_DEV/domain/28330 |
+| RGjWbW1eycP7FrMf4QJvX8:3:CL:13:Person | candy:prod | https://candyscan.idlab.org/tx/CANDY_PROD/domain/14 |
 
 ## Authorization
 
