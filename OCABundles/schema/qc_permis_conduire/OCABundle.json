@@ -80,7 +80,7 @@
           "attribute_categories": [],
           "attribute_labels": {
               "given_name": "Prénoms",
-              "reference_number": Numéro Référence",
+              "reference_number": "Numéro Référence",
               "height": "Grandeur",
               "family_name": "Nom",
               "birth_date_dateint": "Date Naissance",
