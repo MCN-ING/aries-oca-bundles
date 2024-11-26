@@ -1,0 +1,15 @@
+[
+  {
+    "logo": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/bcgov-digital-trust/LCRB/selling-it-right-showcase/bc-logo.jpg",
+    "background_image_slice": "https://www.responsibleservicebc.gov.bc.ca/files/static/bc_wallet_vc_lcrb_image_slice_sell_right.jpg",
+    "background_image": "https://www.responsibleservicebc.gov.bc.ca/files/static/bc_wallet_vc_lcrb_background_image_sell_right.jpg",
+    "primary_background_color": "#003366",
+    "secondary_background_color": "#fcbc1e",
+    "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
+    "digest": "EBQbQEV6qSEGDzGLj1CqT4e6yzESjPimF-Swmyltw5jU",
+    "expiry_date_attribute": "expires_dateint",
+    "primary_attribute": "given_names",
+    "secondary_attribute": "family_name",
+    "type": "aries/overlays/branding/1.0"
+  }
+]
