@@ -99,7 +99,7 @@
         {
           "type": "spec/overlays/meta/1.0",
           "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
-          "name": "Quebec driver license",
+          "name": "Driver license",
           "credential_help_text": "Example of a driver license for a Quebec citizen.",
           "credential_support_url": "",
           "description": "Example of a driver license for a Quebec citizen.",
@@ -113,7 +113,7 @@
         {
           "type": "spec/overlays/meta/1.0",
           "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
-          "name": "Permis de conduire (Québec)",
+          "name": "Permis de conduire",
           "credential_help_text": "Exemple de permis de conduire pour un résident du Québec.",
           "credential_support_url": "",
           "description": "Exemple de permis de conduire pour un résident du Québec.",
