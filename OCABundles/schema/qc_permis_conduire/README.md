@@ -1,19 +1,19 @@
-# CQEN Permis de conduire (Québec)
+# CQEN Permis de conduire
 
-A verifiable credential schema used to demonstrate a Quebec driver license.
+Un schéma d'attestation vérifiable utilisé pour démontrer un permis de conduire du Québec.
 
-- Publishing Organization: CQEN
-- Primary Contact Email Address:
+- Organisation: Centre québécois d'excellence numérique (CQEN)
+- Courriel du contact principal:
 
-## Identifiers
+## Identifiants
 
-| Identifier                                    | Location  | URL                                                   |
-| --------------------------------------------- | --------- | ----------------------------------------------------- |
-| Ep31SvFAetugFPe5CGzJxt:2:PermisConduireQC:1.0 | candy:dev | https://candyscan.idlab.org/tx/CANDY_DEV/domain/35087 |
+| Identifiant                                   | Emplacement | URL                                                   |
+| --------------------------------------------- | ----------- | ----------------------------------------------------- |
+| Ep31SvFAetugFPe5CGzJxt:2:PermisConduireQC:1.0 | candy:dev   | https://candyscan.idlab.org/tx/CANDY_DEV/domain/35087 |
 
-## Authorization
+## Autorisation
 
-The following are the GitHub IDs of those authorized to make substantive updates to the OCA Bundle.
+Liste des identifiants GitHub des personnes autorisées à apporter des mises à jour substantielles au bundle OCA.
 
 | OCA Bundle Contributors | GitHub ID | Email Address |
 | ----------------------- | --------- | ------------- |
