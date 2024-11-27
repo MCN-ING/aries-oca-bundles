@@ -1,0 +1,138 @@
+[
+    {
+      "capture_base": {
+        "type": "spec/capture_base/1.0",
+        "classification": "",
+        "attributes": {
+          "given_name": "Text",
+          "reference_number": "Numeric",
+          "height": "Numeric",
+          "family_name": "Text",
+          "birth_date_dateint": "DateTime",
+          "portrait": "Text",
+          "sex": "Text",
+          "license_number": "Text",
+          "expiry_date_dateint": "DateTime",
+          "conditions": "Text",
+          "resident_address": "Text",
+          "eye_colour": "Text",
+          "issue_date_dateint": "DateTime",
+          "weight": "Numeric",
+          "license_class": "Text"
+        },
+        "flagged_attributes": [],
+        "digest": "FUKLxsjrYSHgScLbHuPTo4"
+      },
+      "overlays": [
+        {
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "type": "spec/overlays/character_encoding/1.0",
+          "default_character_encoding": "utf-8",
+          "attribute_character_encoding": {
+              "given_name": "utf-8",
+              "reference_number": "utf-8",
+              "height": "utf-8",
+              "family_name": "utf-8",
+              "birth_date_dateint": "utf-8",
+              "portrait": "utf-8",
+              "sex": "utf-8",
+              "license_number": "utf-8",
+              "expiry_date_dateint": "utf-8",
+              "conditions": "utf-8",
+              "resident_address": "utf-8",
+              "eye_colour": "utf-8",
+              "issue_date_dateint": "utf-8",
+              "weight": "utf-8",
+              "license_class": "utf-8"
+          }
+        },
+        {
+          "type": "spec/overlays/label/1.0",
+          "language": "en",
+          "digest": "",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "category_labels": {},
+          "attribute_categories": [],
+          "attribute_labels": {
+              "given_name": "Given Names",
+              "reference_number": "Reference Number",
+              "height": "Height",
+              "family_name": "Family Name",
+              "birth_date_dateint": "Birth Date",
+              "portrait": "Portrait",
+              "sex": "Sex",
+              "license_number": "License Number",
+              "expiry_date_dateint": "Expiry Date",
+              "conditions": "Conditions",
+              "resident_address": "Resident Address",
+              "eye_colour": "Eye Colour",
+              "issue_date_dateint": "Issue Date",
+              "weight": "Weight",
+              "license_class": "License Class"
+          }
+        },
+        {
+          "type": "spec/overlays/label/1.0",
+          "language": "fr",
+          "digest": "",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "category_labels": {},
+          "attribute_categories": [],
+          "attribute_labels": {
+              "given_name": "Prénoms",
+              "reference_number": "Numéro Référence",
+              "height": "Grandeur",
+              "family_name": "Nom",
+              "birth_date_dateint": "Date Naissance",
+              "portrait": "Photo",
+              "sex": "Sex",
+              "license_number": "Numéro License",
+              "expiry_date_dateint": "Date Expiration",
+              "conditions": "Conditions",
+              "resident_address": "Adresse",
+              "eye_colour": "Couleur Yeux",
+              "issue_date_dateint": "Date Émission",
+              "weight": "Poid",
+              "license_class": "Classes"
+          }
+        },
+        {
+          "type": "spec/overlays/meta/1.0",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "name": "Driver license",
+          "credential_help_text": "Quebec driver license example.",
+          "credential_support_url": "",
+          "description": "Quebec driver license example.",
+          "digest": "",
+          "issuer": "Société de l'assurance automobile",
+          "issuer_description": "Société de l'assurance automobile",
+          "watermark": "For demonstration only",
+          "issuer_url": "",
+          "language": "en"
+        },
+        {
+          "type": "spec/overlays/meta/1.0",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "name": "Permis de conduire",
+          "credential_help_text": "Exemple de permis de conduire du Québec.",
+          "credential_support_url": "",
+          "description": "Exemple de permis de conduire du Québec.",
+          "digest": "",
+          "issuer": "Société de l'assurance automobile",
+          "issuer_description": "Société de l'assurance automobile",
+          "watermark": "Pour démonstration seulement",
+          "issuer_url": "",
+          "language": "fr"
+        },
+        {
+          "type": "aries/overlays/branding/1.0",
+          "capture_base": "",
+          "digest": "",
+          "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_permis_conduire/logo-quebec.png",
+          "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_permis_conduire/permis-conduire-background.png",
+          "primary_background_color": "#095797",
+          "secondary_background_color": "#19406C"
+        }
+      ]
+    }
+  ]

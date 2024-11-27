@@ -1,0 +1,86 @@
+[
+    {
+      "capture_base": {
+        "type": "spec/capture_base/1.0",
+        "classification": "",
+        "attributes": {
+          "credentialSubject.firstNames": "Firstname",
+          "credentialSubject.lastName": "Lastname"
+        },
+        "flagged_attributes": [],
+        "digest": "FUKLxsjrYSHgScLbHuPTo4"
+      },
+      "overlays": [
+        {
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "type": "spec/overlays/character_encoding/1.0",
+          "default_character_encoding": "utf-8",
+          "attribute_character_encoding": {
+            "credentialSubject.firstNames": "utf-8",
+            "credentialSubject.lastName": "utf-8"
+          }
+        },
+        {
+          "type": "spec/overlays/label/1.0",
+          "language": "en",
+          "digest": "",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "category_labels": {},
+          "attribute_categories": [],
+          "attribute_labels": {
+            "credentialSubject.firstNames": "Firstname",
+            "credentialSubject.lastName": "Lastname"
+          }
+        },
+        {
+          "type": "spec/overlays/label/1.0",
+          "language": "fr",
+          "digest": "",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "category_labels": {},
+          "attribute_categories": [],
+          "attribute_labels": {
+            "credentialSubject.firstNames": "Prénom",
+            "credentialSubject.lastName": "Nom"
+          }
+        },
+        {
+          "type": "spec/overlays/meta/1.0",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "name": "Government digital identity credential (Port-E)",
+          "credential_help_text": "Example of a government digital identity credential.",
+          "credential_support_url": "",
+          "description": "Example of a government digital identity credential.",
+          "digest": "",
+          "issuer": "Quebec's Digital Center of Excellence",
+          "issuer_description": "Quebec's Digital Center of Excellence",
+          "watermark": "",
+          "issuer_url": "",
+          "language": "en"
+        },
+        {
+          "type": "spec/overlays/meta/1.0",
+          "capture_base": "FUKLxsjrYSHgScLbHuPTo4",
+          "name": "Attestation numérique d'identité gouvernementale (Port-E)",
+          "credential_help_text": "Exemple d'attestation d'identité numérique Gouvernemental.",
+          "credential_support_url": "",
+          "description": "Exemple d'attestation d'identité numérique Gouvernemental.",
+          "digest": "",
+          "issuer": "Centre Québécois d'Excellence Numérique",
+          "issuer_description": "Centre Québécois d'Excellence Numérique",
+          "watermark": "",
+          "issuer_url": "",
+          "language": "fr"
+        },
+        {
+          "type": "aries/overlays/branding/1.0",
+          "capture_base": "",
+          "digest": "",
+          "logo": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/cqen_anig/logo-quebec.png",
+          "background_image": "https://raw.githubusercontent.com/MCN-ING/aries-oca-bundles/main/OCABundles/schema/qc_anig_demo/cqen_anig/CQEN-background.png",
+          "primary_background_color": "#F9F9F9",
+          "secondary_background_color": ""
+        }
+      ]
+    }
+  ]
